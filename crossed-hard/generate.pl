@@ -2,9 +2,6 @@
 use List::Util 'shuffle';
 use GD;
 use GD::Simple;
-use Image::Magick;
-use Image::BMP;
-use Image::Filter;
 
 
 ($problem_file, $solution_file) = @ARGV;
@@ -86,7 +83,6 @@ if($diff eq "HARD"){
 	#<STDIN>;
 	$imageheight += 20;
 	$imageheight += 30;
-	#my $BitMap = GD::Image->new($imageheight,$imagewidth);
 	$img = GD::Simple->new($imagewidth,$imageheight);
 	$img->bgcolor('black');
 	$img->fgcolor('black');
