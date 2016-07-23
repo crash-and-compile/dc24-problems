@@ -11,27 +11,27 @@ Your job is to decipher the encoding scheme and provide our cryptanalists with t
 ## INPUT
 Each line contains an indication of the voltage for the signal at a given time. No indicators are provided to help you track the period of time between bits. The stream can be interpreted as follows:
 
-Line contains '     #' : High voltage measured
-Line contains '######' : Change in voltage
-Line contains '#     ' : Low voltage measured
+	Line contains '     #' : High voltage measured
+	Line contains '######' : Change in voltage
+	Line contains '#     ' : Low voltage measured
 
 
 ## OUTPUT
 Output the message encoded in the signal.
 
 ## SAMPLE INPUT
-     #
-     #
-     #
-######
-#     
-#     
-#     
-#     
-#     
-######
-     #
-     #
+	     #
+	     #
+	     #
+	######
+	#     
+	#     
+	#     
+	#     
+	#     
+	######
+	     #
+	     #
 
 ## SAMPLE OUTPUT
-TEST
+	TEST

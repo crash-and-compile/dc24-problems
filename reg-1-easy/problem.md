@@ -22,7 +22,7 @@ You get a string of periods, spaces and minus signs.
 Output the message, all-caps, no spaces.
 
 ## SAMPLE INPUT
-- . ... - 
+	- . ... - 
 
 ## SAMPLE OUTPUT
-TEST
+	TEST

@@ -11,11 +11,11 @@ Your job is to decipher the encoding scheme and provide our cryptanalists with t
 ## INPUT
 Each line contains an indication of the voltage for the signal at a given time. Additionally, a | or + is provided to help you track the period of time between measurements. The stream can be interpreted as follows:
 
-Line starts with + : Indicates the end of a bit transmission
-Line starts with | : Indicates the interim period for a single bit
-Line contains '     #' : High voltage measured
-Line contains '######' : Change in voltage
-Line contains '#     ' : Low voltage measured
+	Line starts with + : Indicates the end of a bit transmission
+	Line starts with | : Indicates the interim period for a single bit
+	Line contains '     #' : High voltage measured
+	Line contains '######' : Change in voltage
+	Line contains '#     ' : Low voltage measured
 
 For this encoding, the first bit being transmitted is always 0.
 
@@ -23,18 +23,18 @@ For this encoding, the first bit being transmitted is always 0.
 Output the string of bits being transmitted.
 
 ## SAMPLE INPUT
-+#     
-|#     
-|#     
-|#     
-|#     
-|#     
-+######
-|     #
-|     #
-|     #
-|     #
-|     #
+	+#     
+	|#     
+	|#     
+	|#     
+	|#     
+	|#     
+	+######
+	|     #
+	|     #
+	|     #
+	|     #
+	|     #
 
 ## SAMPLE OUTPUT
-01
+	01

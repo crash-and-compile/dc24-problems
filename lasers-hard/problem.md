@@ -13,80 +13,81 @@ Charlie team has also identified unique + and - mirror configurations. If the la
 
 ## INPUT
 The input consists of an ascii representation of the walls and mirrors for each of the eight levels, plus a start point S. The grid for each level is 20x20 characters, with the level number in the upper left corner for that level. The exit points are referred to using the side reference and numbers 1 through 18 as follows (showing level 4 as an example): 
-     UUUUUUUUUUUUUUUUUU
-     123456789111111111
-              012345678
-    4###################
- L1 #                  # R1
- L2 #                  # R2
- L3 #                  # R3
- L4 #                  # R4
- L5 #                  # R5
- L6 #                  # R6
- L7 #                  # R7
- L8 #                  # R8
- L9 #                  # R9
-L10 #                  # R10
-L11 #                  # R11
-L12 #                  # R12
-L13 #                  # R13
-L14 #                  # R14
-L15 #                  # R15
-L16 #                  # R16
-L17 #                  # R17
-L18 #                  # R18
-    ####################
-     DDDDDDDDDDDDDDDDDD
-     123456789111111111
-              012345678
+
+	     UUUUUUUUUUUUUUUUUU
+	     123456789111111111
+	              012345678
+	    4###################
+	 L1 #                  # R1
+	 L2 #                  # R2
+	 L3 #                  # R3
+	 L4 #                  # R4
+	 L5 #                  # R5
+	 L6 #                  # R6
+	 L7 #                  # R7
+	 L8 #                  # R8
+	 L9 #                  # R9
+	L10 #                  # R10
+	L11 #                  # R11
+	L12 #                  # R12
+	L13 #                  # R13
+	L14 #                  # R14
+	L15 #                  # R15
+	L16 #                  # R16
+	L17 #                  # R17
+	L18 #                  # R18
+	    ####################
+	     DDDDDDDDDDDDDDDDDD
+	     123456789111111111
+	              012345678
 	      
 ## OUTPUT
 Output the exit point for the laser, indicating level,side,and row/column.
 
 ## SAMPLE INPUT
-1###################
-#      /    \     \#
-# /           /    #
-#          /       #
-#/          \/  +  #
-#    /   ++        #
-#            \ /\  #
-#    \     \       #
-#  \             /\#
-#   /            /+#
-#\  \       \      #
-#   //  / \      \ #
-#  \       \      /#
-#      + /        +#
-#       /        / #
-#  \    +        + #
-#    \             #
-#\     / +         #
-#+          \   \  #
-####################
-.
-.(levels 2-7 ommitted for brevity)
-.
-8###################
-#/  \/     /-      #
-#                  #
-#        / /  - /  #
-#   \              #
-#  \     \         #
-#    \\   /     /  #
-#\\                #
-#     -         \  #
-#     \\    /   -  #
-#                  #
-# -   / /        -/#
-#    /          \ \#
-#               / /#
-#/   / /         / #
-#     /   \   -    #
-#      -       \\  #
-#    \     /  -    #
-#  \       -\      #
-####################
+	1###################
+	#      /    \     \#
+	# /           /    #
+	#          /       #
+	#/          \/  +  #
+	#    /   ++        #
+	#            \ /\  #
+	#    \     \       #
+	#  \             /\#
+	#   /            /+#
+	#\  \       \      #
+	#   //  / \      \ #
+	#  \       \      /#
+	#      + /        +#
+	#       /        / #
+	#  \    +        + #
+	#    \             #
+	#\     / +         #
+	#+          \   \  #
+	####################
+	.
+	.(levels 2-7 ommitted for brevity)
+	.
+	8###################
+	#/  \/     /-      #
+	#                  #
+	#        / /  - /  #
+	#   \              #
+	#  \     \         #
+	#    \\   /     /  #
+	#\\                #
+	#     -         \  #
+	#     \\    /   -  #
+	#                  #
+	# -   / /        -/#
+	#    /          \ \#
+	#               / /#
+	#/   / /         / #
+	#     /   \   -    #
+	#      -       \\  #
+	#    \     /  -    #
+	#  \       -\      #
+	####################
 
 ## SAMPLE OUTPUT
-4R11
+	4R11

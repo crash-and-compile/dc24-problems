@@ -9,57 +9,58 @@ Your job is to analyze the grid, and determine where the laser exits the grid. T
 
 ## INPUT
 The input consists of an ascii representation of the walls and mirrors, plus a start point S. The grid is 20x20 characters. The exit points are referred to using the side reference and numbers 1 through 18 as follows: 
-     UUUUUUUUUUUUUUUUUU
-     123456789111111111
-              012345678
-    ++++++++++++++++++++
- L1 +                  + R1
- L2 +                  + R2
- L3 +                  + R3
- L4 +                  + R4
- L5 +                  + R5
- L6 +                  + R6
- L7 +                  + R7
- L8 +                  + R8
- L9 +                  + R9
-L10 +                  + R10
-L11 +                  + R11
-L12 +                  + R12
-L13 +                  + R13
-L14 +                  + R14
-L15 +                  + R15
-L16 +                  + R16
-L17 +                  + R17
-L18 +                  + R18
-    ++++++++++++++++++++
-     DDDDDDDDDDDDDDDDDD
-     123456789111111111
-              012345678
+
+	     UUUUUUUUUUUUUUUUUU
+	     123456789111111111
+	              012345678
+	    ++++++++++++++++++++
+	 L1 +                  + R1
+	 L2 +                  + R2
+	 L3 +                  + R3
+	 L4 +                  + R4
+	 L5 +                  + R5
+	 L6 +                  + R6
+	 L7 +                  + R7
+	 L8 +                  + R8
+	 L9 +                  + R9
+	L10 +                  + R10
+	L11 +                  + R11
+	L12 +                  + R12
+	L13 +                  + R13
+	L14 +                  + R14
+	L15 +                  + R15
+	L16 +                  + R16
+	L17 +                  + R17
+	L18 +                  + R18
+	    ++++++++++++++++++++
+	     DDDDDDDDDDDDDDDDDD
+	     123456789111111111
+	              012345678
 
 ## OUTPUT
 Output the exit point for the laser.
 
 ## SAMPLE INPUT
-++++++++++++++++++++
-+/      \          +
-+  /   \/      \   +
-+    \/   \     /  +
-+                  +
-+      \     \    \+
-+     \    //  /   +
-+/                 +
-+                  +
-+    \             +
-+  \  /\  \ /    / +
-+       \\ /    // +
-+/   \ /           +
-+        \         +
-+                  +
-+                  +
-+   /  \/     /\   +
-+                  +
-+ \                +
-++++++++S+++++++++++
+	++++++++++++++++++++
+	+/      \          +
+	+  /   \/      \   +
+	+    \/   \     /  +
+	+                  +
+	+      \     \    \+
+	+     \    //  /   +
+	+/                 +
+	+                  +
+	+    \             +
+	+  \  /\  \ /    / +
+	+       \\ /    // +
+	+/   \ /           +
+	+        \         +
+	+                  +
+	+                  +
+	+   /  \/     /\   +
+	+                  +
+	+ \                +
+	++++++++S+++++++++++
 
 ## SAMPLE OUTPUT
-U14
+	U14

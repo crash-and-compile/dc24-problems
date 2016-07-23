@@ -11,61 +11,62 @@ Beta team has also identified some sort of rotating mirror control on the grid. 
 
 ## INPUT
 The input consists of an ascii representation of the walls and mirrors, plus a start point S. The grid is 40x40 characters. The exit points are referred to using the side reference and numbers 1 through 38 as follows (just using the upper left corner as an example for brevity): 
-     UUUUUUUU
-     12345678             
-    +++++++++
- L1 +           
- L2 +         
- L3 +       
- L4 +          
- L5 +   
- L6 +                  
- L7 +
+
+	     UUUUUUUU
+	     12345678             
+	    +++++++++
+	 L1 +           
+	 L2 +         
+	 L3 +       
+	 L4 +          
+	 L5 +   
+	 L6 +                  
+	 L7 +
 
 ## OUTPUT
 Output the exit point for the laser.
 
 ## SAMPLE INPUT
-+++++++++++++++++++++++++S++++++++++++++
-+                           \  \       +
-+     /               /                +
-+  \        /                          +
-+          \                           +
-+          /    /     \   \/     /     +
-+                         /  \       / +
-+   \  /    /                  /       +
-+                           /    \     +
-+      \   /\     \ \           \/     +
-+                      \               +
-+               /  \             \     +
-+/                   \              \  +
-+     /      \         \    /        / +
-+       \   \     /                    +
-+                  \                   +
-+        \   \                         +
-+/     /             /   \             +
-+           /   \  \       \  /        +
-+  /          / \ /  /  /             /+
-+                           /   /      +
-+               \      \ \             +
-+                                 \/   +
-+                                \     +
-+   /                              \   +
-+            /  / /                    +
-+       \    \                         +
-+       \     /    \              /    +
-+                                  /\  +
-+                     \  /   \\        +
-+         /                 /   \      +
-+                   \                \ +
-+      \         /             /    /  +
-+    /   /                    \        +
-+                 /                   /+
-+          \ \                 / \     +
-+/                   /    \ /   \    \\+
-+    /     \                       /   +
-+                       \  / \ \       +
-++++++++++++++++++++++++++++++++++++++++
+	+++++++++++++++++++++++++S++++++++++++++
+	+                           \  \       +
+	+     /               /                +
+	+  \        /                          +
+	+          \                           +
+	+          /    /     \   \/     /     +
+	+                         /  \       / +
+	+   \  /    /                  /       +
+	+                           /    \     +
+	+      \   /\     \ \           \/     +
+	+                      \               +
+	+               /  \             \     +
+	+/                   \              \  +
+	+     /      \         \    /        / +
+	+       \   \     /                    +
+	+                  \                   +
+	+        \   \                         +
+	+/     /             /   \             +
+	+           /   \  \       \  /        +
+	+  /          / \ /  /  /             /+
+	+                           /   /      +
+	+               \      \ \             +
+	+                                 \/   +
+	+                                \     +
+	+   /                              \   +
+	+            /  / /                    +
+	+       \    \                         +
+	+       \     /    \              /    +
+	+                                  /\  +
+	+                     \  /   \\        +
+	+         /                 /   \      +
+	+                   \                \ +
+	+      \         /             /    /  +
+	+    /   /                    \        +
+	+                 /                   /+
+	+          \ \                 / \     +
+	+/                   /    \ /   \    \\+
+	+    /     \                       /   +
+	+                       \  / \ \       +
+	++++++++++++++++++++++++++++++++++++++++
 
 ## SAMPLE OUTPUT
-R17
+	R17

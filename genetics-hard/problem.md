@@ -5,15 +5,15 @@
 
 As you may know, DNA consists of nucleotide pairs (A with T, and C with G). A set of three nucleotides is called a codon, and depending on the nucleotides it will create different proteins. For example, TTT will generate one protein, while TGC will create a different one. This is ultimately accomplished using a process called transcription, where the DNA helix is pulled apart by RNA-polymerase and used to build strands of RNA. The important thing to note here is that RNA-polymerase works in different "directions" on the two seperate strands. For example, the in the following sample, the primary strand uses A,T,G, and C to represent nucleotides, while the complimentary strand uses a,t,g and c:
 
-    G======c  
-   T========a 
- A==========t 
-T============a
-A============t
- G==========c 
- T========a   
-  A======t    
-   G====c    
+	    G======c  
+	   T========a 
+	 A==========t 
+	T============a
+	A============t
+	 G==========c 
+	 T========a   
+	  A======t    
+	   G====c    
    
 While being transcribed, RNA will process the primary strand and see the GTA,TAG and TAG codons (in order), while the complimentary strand is processed the other direction and will see CTA,CTA, and TAC. 
 
@@ -30,16 +30,16 @@ You will be given a representation of the DNA structure with the primary strand 
 You must output whether the sample represents IMMUNE, SUSCEPTIBLE, or COMPROMISED .
 
 ## SAMPLE INPUT
-    G======c  
-   T========a 
- A==========t 
-T============a
-A============t
- G==========c 
- T========a   
-  A======t    
-   G====c    
+	    G======c  
+	   T========a 
+	 A==========t 
+	T============a
+	A============t
+	 G==========c 
+	 T========a   
+	  A======t    
+	   G====c    
 
 ## SAMPLE OUTPUT
-SUSCEPTIBLE
+	SUSCEPTIBLE
 
