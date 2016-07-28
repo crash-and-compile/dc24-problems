@@ -5,8 +5,8 @@ use Convert::Ascii85;
 use Text::Morse;
 
 ($problem_file, $solution_file) = @ARGV;
-open(INFILE,">input/$problem_file");
-open(OUTFILE,">output/$solution_file");
+open(INFILE,">$problem_file");
+open(OUTFILE,">$solution_file");
 my $diff = "EASY";
 if($diff eq "EASY"){
 	my @words = ('This was a test','Good job','You should try a harder problem','Well done','Way to go','You may have some potential','Not bad at all','RANDOM');
