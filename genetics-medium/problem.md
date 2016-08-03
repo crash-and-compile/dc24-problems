@@ -31,19 +31,37 @@ Your job is to provide automated detection software that can quickly determine t
 ## INPUT
 You will be given a representation of the DNA structure with the primary strand using capital letters for the nucleotides (A=Adenine, C=Cytosine, etc.) and with the complimentary strand using lowercase letters to represent nucleotides (a=adenine, c=cytosine, etc.). You must analyze this sample to determine the number of codons represented in the strand.
 
+NOTE: Multiple input case are seperated by a line of percent signs
+
 ## OUTPUT
 You must output the number of unique codons and whether the same is HUMAN or SYNTHETIC.
 
+NOTE: Solutions to test cases should be seperated by a line of percent signs just like the input
+
 ## SAMPLE INPUT
-	    G======c  
-	   T========a 
-	 A==========t 
-	T============a
-	A============t
-	 G==========c 
-	 T========a   
-	  A======t    
-	   G====c    
+    G======c  
+   T========a 
+ A==========t 
+T============a
+A============t
+ G==========c 
+ T========a   
+  A======t    
+   G====c    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    G======c  
+   T========a 
+ A==========t 
+T============a
+A============t
+ G==========c 
+ T========a   
+  A======t    
+   G====c    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 ## SAMPLE OUTPUT
-	4 HUMAN
+4 HUMAN
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+4 HUMAN
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

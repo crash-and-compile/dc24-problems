@@ -12,11 +12,21 @@ Turns out, the AI was shifting between 3 different encoding schemes. Once the re
 ## INPUT
 You'll be given an encoded message.
 
+NOTE: Multiple input case are seperated by a line of percent signs
+
 ## OUTPUT
 Output the decoded message. You'll know if you've got the right decoding scheme for the message.
 
+NOTE: Solutions to test cases should be seperated by a line of percent signs just like the input
+
 ## SAMPLE INPUT
-	VEVTVA
+VEVTVA
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+VEVTVA
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 ## SAMPLE OUTPUT
-	TEST
+TEST
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+TEST
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

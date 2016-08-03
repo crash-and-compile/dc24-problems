@@ -5,7 +5,7 @@
 
 Charlie team has been intercepting transmissions from AI-controlled collection nodes. These transmissions appear to assist the AI agents in detecting our troop movements, allowing the AI time to redirect transports and evade attacks. 
 
-Your job is to decipher the encoding scheme and provide our cryptanalists with the messages being passed.
+Your job is to decipher the encoding scheme and provide our crypto team with the messages being passed.
 
 
 ## INPUT
@@ -16,22 +16,51 @@ Each line contains an indication of the voltage for the signal at a given time. 
 	Line contains '#     ' : Low voltage measured
 
 
+NOTE: Multiple input case are seperated by a line of percent signs
+
 ## OUTPUT
 Output the message encoded in the signal.
 
+NOTE: Solutions to test cases should be seperated by a line of percent signs just like the input
+
 ## SAMPLE INPUT
-	     #
-	     #
-	     #
-	######
-	#     
-	#     
-	#     
-	#     
-	#     
-	######
-	     #
-	     #
+     #
+     #
+     #
+######
+#     
+#     
+#     
+#     
+#     
+######
+     #
+     #
+(additional lines omitted)
+     #
+     #
+######
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     #
+     #
+     #
+######
+#     
+#     
+#     
+#     
+#     
+######
+     #
+     #
+(additional lines omitted)
+     #
+     #
+######
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 ## SAMPLE OUTPUT
-	TEST
+TEST
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+TEST
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

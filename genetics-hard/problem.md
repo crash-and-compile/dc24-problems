@@ -26,8 +26,12 @@ Your job is to provide automated detection software that can quickly determine w
 ## INPUT
 You will be given a representation of the DNA structure with the primary strand using capital letters for the nucleotides (A=Adenine, C=Cytosine, etc.) and with the complimentary strand using lowercase letters to represent nucleotides (a=adenine, c=cytosine, etc.). You must analyze this sample to determine the corresponding RNA sequences, and determine whether the genetic markers are present and in the right order.
 
+NOTE: Multiple input case are seperated by a line of percent signs
+
 ## OUTPUT
 You must output whether the sample represents IMMUNE, SUSCEPTIBLE, or COMPROMISED .
+
+NOTE: Solutions to test cases should be seperated by a line of percent signs just like the input
 
 ## SAMPLE INPUT
 	    G======c  
@@ -39,7 +43,21 @@ You must output whether the sample represents IMMUNE, SUSCEPTIBLE, or COMPROMISE
 	 T========a   
 	  A======t    
 	   G====c    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	    G======c  
+	   T========a 
+	 A==========t 
+	T============a
+	A============t
+	 G==========c 
+	 T========a   
+	  A======t    
+	   G====c    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 ## SAMPLE OUTPUT
-	SUSCEPTIBLE
+SUSCEPTIBLE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+SUSCEPTIBLE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

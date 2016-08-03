@@ -18,22 +18,42 @@ Agents have passed along sketches of the wiring in various devices. The first in
 	/ \
 	A B
 
+
+NOTE: Multiple input case are seperated by a line of percent signs
+
 ## OUTPUT
 You must output in all caps (the agents are tired and don't want to mix up letters) where the desinated wire terminates. For example: X IS AT Y
 
-## SAMPLE INPUT
-	TRACK H
-	A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
-	| | | | | | | | | | | | | | | | | | | | | | | | | | 
-	| \ / | \ / \ / | \ / \ / | | \ / \ / | | | | | | | 
-	|  x  |  x   x  |  x   x  | |  x   x  | \ / | | \ / 
-	| / \ | / \ / \ | / \ / \ \ / / \ / \ |  x  \ /  x  
-	| | | | | | | | | | | | |  x  | | | | | / \  x  / \ 
-	\ / | \ / \ / | \ / | \ / / \ | \ / | | | | / \ | | 
-	 x  |  x   x  |  x  |  x  | | |  x  | | | | | | | | 
-	/ \ | / \ / \ | / \ | / \ | | | / \ | | | | | | | | 
-	A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
+NOTE: Solutions to test cases should be seperated by a line of percent signs just like the input
 
+## SAMPLE INPUT
+TRACK H
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
+| | | | | | | | | | | | | | | | | | | | | | | | | | 
+| \ / | \ / \ / | \ / \ / | | \ / \ / | | | | | | | 
+|  x  |  x   x  |  x   x  | |  x   x  | \ / | | \ / 
+| / \ | / \ / \ | / \ / \ \ / / \ / \ |  x  \ /  x  
+| | | | | | | | | | | | |  x  | | | | | / \  x  / \ 
+\ / | \ / \ / | \ / | \ / / \ | \ / | | | | / \ | | 
+ x  |  x   x  |  x  |  x  | | |  x  | | | | | | | | 
+/ \ | / \ / \ | / \ | / \ | | | / \ | | | | | | | | 
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+TRACK H
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
+| | | | | | | | | | | | | | | | | | | | | | | | | | 
+| \ / | \ / \ / | \ / \ / | | \ / \ / | | | | | | | 
+|  x  |  x   x  |  x   x  | |  x   x  | \ / | | \ / 
+| / \ | / \ / \ | / \ / \ \ / / \ / \ |  x  \ /  x  
+| | | | | | | | | | | | |  x  | | | | | / \  x  / \ 
+\ / | \ / \ / | \ / | \ / / \ | \ / | | | | / \ | | 
+ x  |  x   x  |  x  |  x  | | |  x  | | | | | | | | 
+/ \ | / \ / \ | / \ | / \ | | | / \ | | | | | | | | 
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 ## SAMPLE OUTPUT
-	H IS AT F
+H IS AT F
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+H IS AT F
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

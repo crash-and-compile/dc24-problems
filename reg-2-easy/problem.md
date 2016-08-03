@@ -14,11 +14,21 @@ I'm not going to waste time explaining it to you. Go read: <a href="https://en.w
 ## INPUT
 I'll give you a decimal representation of a Gray binary constructed from an n-bit Gray code. 
 
+NOTE: Multiple input case are seperated by a line of percent signs
+
 ## OUTPUT
 You output the decimal value that was encoded.
 
+NOTE: Solutions to test cases should be seperated by a line of percent signs just like the input
+
 ## SAMPLE INPUT
-	6
+6
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+6
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 ## SAMPLE OUTPUT
-	4
+4
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+4
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

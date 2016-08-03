@@ -5,7 +5,7 @@
 
 Charlie team has infiltrated an AI facility used to manufacture autonomous drones. However, they are currently exposed in a warehouse with a complicated security system barring further progress. They have identified the system as a multi-level laser grid, and the lasers operate outside of the 400nm ~ 700nm range so are invisible. There is a series of mirrors used to reflect the laser across segments of the warehouse, but they have no way of knowing where to place reflectors to disable detection.
 
-Your job is to analyze the grid, and determine where the laser exits the grid. The teams have provided an ASCII representation of the mirror layout. The grid has boundaries represented by a + character, and mirrors represented by either / or \. The entry point is marked by an S. For orientation, the top side is UP, the bottom is DOWN, the left side is LEFT, the right side is RIGHT. Each layer of the grid is labelled with a number. If the S is on the LEFT wall, the laser starts moving from left to right on the same level, if it is on the UP wall, it starts moving from up to down on the same level, and so on. If moving left and the laser hits a /, it will change direction to move up. If the laser is moving up and hits a / mirror, it will change direction to go right. Basically, a mirror indicates a 90 degree change in direction.
+Your job is to analyze the grid, and determine where the laser exits the grid. The teams have provided an ASCII representation of the mirror layout. The grid has boundaries represented by a + character, and mirrors represented by either / or \. The entry point is marked by an S. For orientation, the top side is UP, the bottom is DOWN, the left side is LEFT, the right side is RIGHT. Each layer of the grid is labelled with a number. If the S is on the LEFT wall, the laser starts moving from left to right on the same level, if it is on the UP wall, it starts moving from up to down on the same level, and so on. If moving left and the laser hits a /, it will change direction to move down. If the laser is moving up and hits a / mirror, it will change direction to go right. Basically, a mirror indicates a 90 degree change in direction.
 
 Similar to Bravo teams findings, mirrors appear to switch directions after being hit, changing from \ to / and vice versus. However, ONLY the mirror that was hit switches directions.
 
@@ -41,53 +41,105 @@ The input consists of an ascii representation of the walls and mirrors for each 
 	     123456789111111111
 	              012345678
 	      
+NOTE: Multiple input case are seperated by a line of percent signs
+
 ## OUTPUT
 Output the exit point for the laser, indicating level,side,and row/column.
 
+NOTE: Solutions to test cases should be seperated by a line of percent signs just like the input
+
 ## SAMPLE INPUT
-	1###################
-	#      /    \     \#
-	# /           /    #
-	#          /       #
-	#/          \/  +  #
-	#    /   ++        #
-	#            \ /\  #
-	#    \     \       #
-	#  \             /\#
-	#   /            /+#
-	#\  \       \      #
-	#   //  / \      \ #
-	#  \       \      /#
-	#      + /        +#
-	#       /        / #
-	#  \    +        + #
-	#    \             #
-	#\     / +         #
-	#+          \   \  #
-	####################
-	.
-	.(levels 2-7 ommitted for brevity)
-	.
-	8###################
-	#/  \/     /-      #
-	#                  #
-	#        / /  - /  #
-	#   \              #
-	#  \     \         #
-	#    \\   /     /  #
-	#\\                #
-	#     -         \  #
-	#     \\    /   -  #
-	#                  #
-	# -   / /        -/#
-	#    /          \ \#
-	#               / /#
-	#/   / /         / #
-	#     /   \   -    #
-	#      -       \\  #
-	#    \     /  -    #
-	#  \       -\      #
-	####################
+1###################
+#      /    \     \#
+# /           /    #
+#          /       #
+#/          \/  +  #
+#    /   ++        #
+#            \ /\  #
+#    \     \       #
+#  \             /\#
+#   /            /+#
+#\  \       \      #
+#   //  / \      \ #
+#  \       \      /#
+#      + /        +#
+#       /        / #
+#  \    +        + #
+#    \             #
+#\     / +         #
+#+          \   \  #
+####################
+.
+.(levels 2-7 ommitted for brevity)
+.
+8###################
+#/  \/     /-      #
+#                  #
+#        / /  - /  #
+#   \              #
+#  \     \         #
+#    \\   /     /  #
+#\\                #
+#     -         \  #
+#     \\    /   -  #
+#                  #
+# -   / /        -/#
+#    /          \ \#
+#               / /#
+#/   / /         / #
+#     /   \   -    #
+#      -       \\  #
+#    \     /  -    #
+#  \       -\      #
+####################
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+1###################
+#      /    \     \#
+# /           /    #
+#          /       #
+#/          \/  +  #
+#    /   ++        #
+#            \ /\  #
+#    \     \       #
+#  \             /\#
+#   /            /+#
+#\  \       \      #
+#   //  / \      \ #
+#  \       \      /#
+#      + /        +#
+#       /        / #
+#  \    +        + #
+#    \             #
+#\     / +         #
+#+          \   \  #
+####################
+.
+.(levels 2-7 ommitted for brevity)
+.
+8###################
+#/  \/     /-      #
+#                  #
+#        / /  - /  #
+#   \              #
+#  \     \         #
+#    \\   /     /  #
+#\\                #
+#     -         \  #
+#     \\    /   -  #
+#                  #
+# -   / /        -/#
+#    /          \ \#
+#               / /#
+#/   / /         / #
+#     /   \   -    #
+#      -       \\  #
+#    \     /  -    #
+#  \       -\      #
+####################
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 ## SAMPLE OUTPUT
-	4R11
+4R11
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+4R11
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
