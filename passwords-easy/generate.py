@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 import math
 import operator
 import os
@@ -63,22 +63,30 @@ class Password:
 		return self.GenerateLine()
 
 def main():
-	p = Password(words.random_word())
 	if len(sys.argv) == 3:
-		i = open(os.path.join('input', sys.argv[1]), 'w')
-		o = open(os.path.join('output', sys.argv[2]), 'w')
+		i = open(sys.argv[1], 'w')
+		o = open(sys.argv[2], 'w')
+		cases = 50
 	else:
 		i = sys.stdout
 		o = sys.stdout
+		cases = 2
 		
-	# Results will be biased towards the longest prefix/suffix as the last
-	# result. Shuffle to make it less obvious.
-	guesses = [x for x in p]
-	random.shuffle(guesses)
+	for test in range(0, cases):
+		p = Password(words.random_word())
 
-	for guess, matches in guesses:
-		i.write('{} {}\n'.format(guess, matches))
-	o.write('{}\n'.format(p.password))
+		# Results will be biased towards the longest prefix/suffix as the last
+		# result. Shuffle to make it less obvious.
+		guesses = [x for x in p]
+		random.shuffle(guesses)
+
+		for guess, matches in guesses:
+		        i.write('{} {}\n'.format(guess, matches))
+		o.write('{}\n'.format(p.password))
+
+		case_sep = '%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n'
+		i.write(case_sep)
+		o.write(case_sep)
 
 	i.close()
 	o.close()

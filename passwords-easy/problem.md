@@ -31,24 +31,37 @@ longer of the two matches is returned.
 Output is the password that will definitely make you a Twitter star!
 
 ## SAMPLE INPUT
-TABC 1
-DEEF 1
-GHSI 1
-JKLT 1
-TEMN 2
-OPQT 1
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-TABC 1
-DEEF 1
-GHSI 1
-JKLT 1
-TEMN 2
-OPQT 1
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	TABC 1
+	DEEF 1
+	GHSI 1
+	JKLT 1
+	TEMN 2
+	OPQT 1
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	LANDQVJXCB 4
+	ESLA 2
+	ZENQNE 0
+	XVGYLA 2
+	QN 0
+	EHFJYGTLAND 4
+	LMUNPZ 1
+	ARKSZGDXPD 4
+	RNWEDKS 2
+	LANJGOUZRB 3
+	FOKS 2
+	LWCH 1
+	MARKSEEFLFBJG 5
+	LVGZPPJQFMARKS 5
+	LAUROKQWJ 2
+	DTUULAN 3
+	KSTIJYAOP 2
+	YCWLAN 3
+	PMPXPFHIFL 1
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 ## SAMPLE OUTPUT
-TEST
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-TEST
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	TEST
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	LANDMARKS
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

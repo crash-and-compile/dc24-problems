@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 import os
 import random
 import re
@@ -45,17 +45,25 @@ class Password:
 		
 
 def main():
-	p = Password('_'.join(words.random_words(random.randrange(3, 5))))
         if len(sys.argv) == 3:
-                i = open(os.path.join('input', sys.argv[1]), 'w')
-                o = open(os.path.join('output', sys.argv[2]), 'w')
+                i = open(sys.argv[1], 'w')
+                o = open(sys.argv[2], 'w')
+                cases = 2
         else:   
                 i = sys.stdout
                 o = sys.stdout
+                cases = 50
 
-        for guess, matches in p:
-                i.write('{} {}\n'.format(guess, matches))
-        o.write('{}\n'.format(p.password))
+	for test in range(0, cases):
+        	p = Password('_'.join(words.random_words(random.randrange(3, 5))))
+
+        	for guess, matches in p:
+        	        i.write('{} {}\n'.format(guess, matches))
+        	o.write('{}\n'.format(p.password))
+
+		case_sep = '%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n'
+		i.write(case_sep)
+		o.write(case_sep)
 
         i.close()
         o.close()
