@@ -23,13 +23,23 @@ matching characters in that attempt.
 Output is the password that will save your life!
 
 ## SAMPLE INPUT
-
-	TABC 1
-	DEEF 1
-	GHSI 1
-	JKLT 1
-	TEMN 2
-	OPQT 1
+TABC 1
+DEEF 1
+GHSI 1
+JKLT 1
+TEMN 2
+OPQT 1
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+TABC 1
+DEEF 1
+GHSI 1
+JKLT 1
+TEMN 2
+OPQT 1
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 ## SAMPLE OUTPUT
-	TEST
+TEST
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+TEST
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -31,14 +31,24 @@ longer of the two matches is returned.
 Output is the password that will definitely make you a Twitter star!
 
 ## SAMPLE INPUT
-
-	TABC 1
-	DEEF 1
-	GHSI 1
-	JKLT 1
-	TEMN 2
-	OPQT 1
+TABC 1
+DEEF 1
+GHSI 1
+JKLT 1
+TEMN 2
+OPQT 1
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+TABC 1
+DEEF 1
+GHSI 1
+JKLT 1
+TEMN 2
+OPQT 1
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 ## SAMPLE OUTPUT
-	TEST
+TEST
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+TEST
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
