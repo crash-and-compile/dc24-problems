@@ -24,45 +24,7 @@ Output the message encoded in the signal.
 NOTE: Solutions to test cases should be seperated by a line of percent signs just like the input
 
 ## SAMPLE INPUT
-	#     
-	#     
-	#     
-	#     
-	#     
-	######
-	     #
-	     #
-	     #
-	     #
-	     #
-	######
-	#     
-	(additional lines omitted)
-	#
-	#
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	#     
-	#     
-	#     
-	#     
-	#     
-	######
-	     #
-	     #
-	     #
-	     #
-	     #
-	######
-	#     
-	(additional lines omitted)
-	#
-	#
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+<a target=new href='/include/signals-medium-input.txt'>Sample Input File</a>
 
 ## SAMPLE OUTPUT
-	TEST
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	TEST
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+<a target=new href='/include/signals-medium-output.txt'>Sample Output File</a>

@@ -27,44 +27,7 @@ Output the string of bits being transmitted.
 NOTE: Solutions to test cases should be seperated by a line of percent signs just like the input
 
 ## SAMPLE INPUT
-	+#     
-	|#     
-	|#     
-	|#     
-	|#     
-	|#     
-	+######
-	|     #
-	|     #
-	|     #
-	|     #
-	|     #
-	(additional lines omitted)
-	|     #
-	|     #
-	+######
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	+#     
-	|#     
-	|#     
-	|#     
-	|#     
-	|#     
-	+######
-	|     #
-	|     #
-	|     #
-	|     #
-	|     #
-	(additional lines omitted)
-	|     #
-	|     #
-	+######
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<a target=new href='/include/signals-easy-input.txt'>Sample Input File</a>
 
 ## SAMPLE OUTPUT
-	01
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	01
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+<a target=new href='/include/signals-easy-output.txt'>Sample Output File</a>

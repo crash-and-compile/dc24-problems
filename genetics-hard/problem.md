@@ -34,30 +34,6 @@ You must output whether the sample represents IMMUNE, SUSCEPTIBLE, or COMPROMISE
 NOTE: Solutions to test cases should be seperated by a line of percent signs just like the input
 
 ## SAMPLE INPUT
-		    G======c  
-		   T========a 
-		 A==========t 
-		T============a
-		A============t
-		 G==========c 
-		 T========a   
-		  A======t    
-		   G====c    
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-		    G======c  
-		   T========a 
-		 A==========t 
-		T============a
-		A============t
-		 G==========c 
-		 T========a   
-		  A======t    
-		   G====c    
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+<a target=new href='/include/genetics-hard-input.txt'>Sample Input File</a>
 ## SAMPLE OUTPUT
-	SUSCEPTIBLE
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	SUSCEPTIBLE
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+<a target=new href='/include/genetics-hard-output.txt'>Sample Output File</a>

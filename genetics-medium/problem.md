@@ -39,29 +39,6 @@ You must output the number of unique codons and whether the same is HUMAN or SYN
 NOTE: Solutions to test cases should be seperated by a line of percent signs just like the input
 
 ## SAMPLE INPUT
-	    G======c  
-	   T========a 
-	 A==========t 
-	T============a
-	A============t
-	 G==========c 
-	 T========a   
-	  A======t    
-	   G====c    
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	    G======c  
-	   T========a 
-	 A==========t 
-	T============a
-	A============t
-	 G==========c 
-	 T========a   
-	  A======t    
-	   G====c    
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+<a target=new href='/include/genetics-medium-input.txt'>Sample Input File</a>
 ## SAMPLE OUTPUT
-	4 HUMAN
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	4 HUMAN
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<a target=new href='/include/genetics-medium-output.txt'>Sample Output File</a>
