@@ -147,7 +147,7 @@ for(my $n = 0; $n < $testcases; $n++){
 			push(@outputs, $val);
 		}
 		foreach my $output (sort @outputs){
-			print OUTFILE "$output\n";
+			print OUTFILE "$output";
 		}
 		#`cat input/$problem_file | base64 -d > debug/$debug.jpg`;
 		unlink("tmp.jpg");
