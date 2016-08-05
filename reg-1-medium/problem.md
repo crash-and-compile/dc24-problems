@@ -1,7 +1,7 @@
 <!-- RATING: MEDIUM -->
 <!-- NAME:  BOOT CAMP 1 -->
 <!-- GENERATOR: generate.pl -->
-# BOOT CAMP 1
+# BOOT CAMP 1 - Medium
 
 Ok, everyone. I assume you've gotten passed the first exercise. If not, well, aren't you just full of self-confidence? Not my problem. You think 
 you can hack it here, recruit, far be it from me to get in your way.

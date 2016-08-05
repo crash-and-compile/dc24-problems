@@ -1,7 +1,7 @@
 <!-- RATING: MEDIUM -->
 <!-- NAME:  BOOT CAMP 2 -->
 <!-- GENERATOR: generate.pl -->
-# BOOT CAMP 2
+# BOOT CAMP 2 - Medium
 
 Hopefully, you've boned up on your Gray codes, because now we get more serious. Make sure you've familiarized yourself with Gray codes at: 
 <a href="https://en.wikipedia.org/wiki/Gray_code" target="_blank">https://en.wikipedia.org/wiki/Gray_code</a>

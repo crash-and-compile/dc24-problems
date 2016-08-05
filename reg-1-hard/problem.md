@@ -1,7 +1,7 @@
 <!-- RATING: HARD -->
 <!-- NAME:  BOOT CAMP 1 -->
 <!-- GENERATOR: generate.pl -->
-# BOOT CAMP 1
+# BOOT CAMP 1 - Hard
 
 Welcome to the advanced course, recruit. You've either passed the previous exercises, or feel you can operate at an advanced level. Good for you, I just hope you're not too full of yourself.
 

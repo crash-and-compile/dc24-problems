@@ -1,7 +1,7 @@
 <!-- RATING: EASY -->
 <!-- NAME:  BOOT CAMP 2 -->
 <!-- GENERATOR: generate.pl -->
-# BOOT CAMP 2
+# BOOT CAMP 2 - Easy
 
 Welcome to the second part of your boot camp. If you haven't done the first boot camp exercises, you might want to give them a try first. But far be it from me to tell you what to do.
 

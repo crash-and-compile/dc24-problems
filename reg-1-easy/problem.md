@@ -1,7 +1,7 @@
 <!-- RATING: EASY -->
 <!-- NAME:  BOOT CAMP 1 -->
 <!-- GENERATOR: generate.pl -->
-# BOOT CAMP 1
+# BOOT CAMP 1 - Easy
 
 Ok, recruit, some background. 
 
