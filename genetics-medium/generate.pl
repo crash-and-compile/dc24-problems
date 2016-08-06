@@ -168,9 +168,9 @@ for(my $n = 0; $n < $testcases; $n++){
 		print INFILE "$indna";
 		my $avg = $unique / $total;
 		if($avg >= 0.6){
-			print OUTFILE "$total HUMAN\n";
+			print OUTFILE "$unique HUMAN\n";
 		} else {
-			print OUTFILE "$total SYNTHETIC\n";
+			print OUTFILE "$unique SYNTHETIC\n";
 		}
 		#open(TMP,">>ratios");
 		#print TMP "$avg\n";

@@ -19,7 +19,7 @@ While being transcribed, RNA will process the primary strand and see the GTA,TAG
 
 RNA-polymerase builds the RNA strand by matching an appropriate nucleotide with the one read from the DNA strand. Instead of Thymine, though, RNA uses Uracil. So while processing the primary strand GTATAGTAG above, the resulting RNA strand would be CAUAUCAUC (with T=Thymine being replaced by U=Uracil).
 
-Our scientists have identified some critical genetic markers that indicate whether a person is immune, susceptible, or already compromised by the AI biological agents, but so far their efforts are tedious and time consuming. They have determined that an RNA strand with AUG followed at some point down the strand by GUC indicates the sample is from a compromised human. Presence of either the AUG or GUC sections indicates susceptibility. No such sequences represents immunity.
+Our scientists have identified some critical genetic markers that indicate whether a person is immune, susceptible, or already compromised by the AI biological agents, but so far their efforts are tedious and time consuming. They have determined that an RNA strand with AUG followed at some point down the same strand by GUC indicates the sample is from a compromised human. Presence of either the AUG or GUC sections in a single strand indicates susceptibility. No such sequences represents immunity.
 
 Your job is to provide automated detection software that can quickly determine whether the genetic markers are present in a sample, and determine whether the sample indicates immunity, susceptibility, or compromise. 
 
