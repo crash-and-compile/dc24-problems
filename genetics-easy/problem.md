@@ -1,7 +1,7 @@
 <!-- RATING: EASY -->
 <!-- NAME: GENETICS -->
 <!-- GENERATOR: generate.pl -->
-# GENETICS
+# GENETICS - Easy
 
 The AI has been developing biological vectors to target portions of the human genome. When successful, these modifications allow the AI to 
 influence human behavior at a genetic level, which could undermine human resistance forces.

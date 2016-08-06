@@ -1,7 +1,7 @@
 <!-- RATING: MEDIUM -->
 <!-- NAME: PASSWORDS -->
 <!-- GENERATOR: generate.py -->
-# GET CRACKING!
+# GET CRACKING! - Medium
 
 Thanks to a successful infiltration by Mr. X, we now know that access to the
 utility tunnels is controlled by a simple password. Unfortunately, Mr. X was

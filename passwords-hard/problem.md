@@ -1,7 +1,7 @@
 <!-- RATING: HARD -->
 <!-- NAME: PASSWORDS -->
 <!-- GENERATOR: generate.py -->
-# GET CRACKING!
+# GET CRACKING! - Hard
 
 Thanks to a successful infiltration by Ms. Y, we have discovered that AI had a
 backdoor password installed before turning evil. (It's always good to plan for

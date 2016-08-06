@@ -284,20 +284,22 @@ for(my $n = 0; $n < $testcases; $n++){
 			}
 		}
 		#print "$status\n";
-		$start = 0;
-		$end = 0;
-		foreach my $pcodon (@pcodons){
-			if($pcodon eq ""){ next; }
-			my $mrna = $pcodon;
-			$mrna =~ tr/ATGC/UACG/;
-			if($mrna eq "AUG"){
-				$status = "SUSCEPTIBLE"; 
-				$start=1;
-			}
-			if($mrna eq "GUC"){ 
-				$status = "SUSCEPTIBLE";
-				if($start == 1){
-					$status	= "COMPROMISED";
+		if $status != "COMPROMISED" {
+			$start = 0;
+			$end = 0;
+			foreach my $pcodon (@pcodons){
+				if($pcodon eq ""){ next; }
+				my $mrna = $pcodon;
+				$mrna =~ tr/ATGC/UACG/;
+				if($mrna eq "AUG"){
+					$status = "SUSCEPTIBLE"; 
+					$start=1;
+				}
+				if($mrna eq "GUC"){ 
+					$status = "SUSCEPTIBLE";
+					if($start == 1){
+						$status	= "COMPROMISED";
+					}
 				}
 			}
 		}

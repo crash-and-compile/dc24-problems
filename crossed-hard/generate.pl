@@ -152,6 +152,7 @@ for(my $n = 0; $n < $testcases; $n++){
 		#`cat input/$problem_file | base64 -d > debug/$debug.jpg`;
 		unlink("tmp.jpg");
 	}
+	print OUTFILE "\n";
 
 	print INFILE '%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%'."\n";
 	print OUTFILE '%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%'."\n";

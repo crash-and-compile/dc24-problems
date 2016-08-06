@@ -1,7 +1,7 @@
 <!-- RATING: EASY -->
 <!-- NAME:  SIGNALS -->
 <!-- GENERATOR: generate.pl -->
-# SIGNALS
+# SIGNALS - Easy
 
 Alpha team has been intercepting transmissions from AI control nodes that need to be deciphered. This first batch of signals were detected coming out of a central facility that we think is being used for supporting encrypted messages between AI control cells. Initial indications are that the signals are some sort of random number generator, but it is unknown how the signals are encoding bits.
 

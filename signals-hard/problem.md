@@ -1,7 +1,7 @@
 <!-- RATING: HARD -->
 <!-- NAME:  SIGNALS -->
 <!-- GENERATOR: generate.pl -->
-# SIGNALS
+# SIGNALS - Hard
 
 Charlie team has been intercepting transmissions from AI-controlled collection nodes. These transmissions appear to assist the AI agents in detecting our troop movements, allowing the AI time to redirect transports and evade attacks. 
 

@@ -1,7 +1,7 @@
 <!-- RATING: MEDIUM -->
 <!-- NAME:  CROSSING LINES -->
 <!-- GENERATOR: generate.pl -->
-# CROSSING LINES
+# CROSSING LINES - Medium
 
 Multiple explosive devices have been discovered implanted into critical infrastructure. The devices have a complicated wiring structure in the detonator that has multiple trigger lines twisted together. Given the number of devices discovered, this poses a significant threat to national infrastructure, and the agents are exhausted. They have identified the incoming wire that must be disconnected, but they are seeing double and need your assistance. They don't trust their judgement in cutting the right wire. 
 
