@@ -10,12 +10,12 @@ Anyway, let's get to it. Time to see if you're as good as some of the AI agents.
 ## INPUT
 You'll get a bunch of text. This is a Base64-encoded PNG image file. Your job is to process the image file and determine what was encoded. 
 
-NOTE: Multiple input case are seperated by a line of percent signs
+NOTE: Multiple input case are separated by a line of percent signs
 
 ## OUTPUT
 We'll keep this simple. The image encodes 4 characters
 
-NOTE: Solutions to test cases should be seperated by a line of percent signs just like the input
+NOTE: Solutions to test cases should be separated by a line of percent signs just like the input
 
 ## SAMPLE INPUT
 <a target=new href='/include/reg-2-hard-input.txt'>Sample Input File</a>

@@ -29,7 +29,7 @@ number of matching characters in that attempt.
 
 Output is the password matching the conditions of the input.
 
-NOTE: Solutions to test cases should *not* be seperated by a line of percent signs.
+NOTE: Solutions to test cases should *not* be separated by a line of percent signs.
 
 ## SAMPLE INPUT
 	TABC 1

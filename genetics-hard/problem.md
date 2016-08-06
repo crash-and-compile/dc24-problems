@@ -3,7 +3,7 @@
 <!-- GENERATOR: generate.pl -->
 # GENETICS - Hard
 
-As you may know, DNA consists of nucleotide pairs (A with T, and C with G). A set of three nucleotides is called a codon, and depending on the nucleotides it will create different proteins. For example, TTT will generate one protein, while TGC will create a different one. This is ultimately accomplished using a process called transcription, where the DNA helix is pulled apart by RNA-polymerase and used to build strands of RNA. The important thing to note here is that RNA-polymerase works in different "directions" on the two seperate strands. For example, the in the following sample, the primary strand uses A,T,G, and C to represent nucleotides, while the complimentary strand uses a,t,g and c:
+As you may know, DNA consists of nucleotide pairs (A with T, and C with G). A set of three nucleotides is called a codon, and depending on the nucleotides it will create different proteins. For example, TTT will generate one protein, while TGC will create a different one. This is ultimately accomplished using a process called transcription, where the DNA helix is pulled apart by RNA-polymerase and used to build strands of RNA. The important thing to note here is that RNA-polymerase works in different "directions" on the two separate strands. For example, the in the following sample, the primary strand uses A,T,G, and C to represent nucleotides, while the complimentary strand uses a,t,g and c:
 
 	    G======c  
 	   T========a 
@@ -26,12 +26,12 @@ Your job is to provide automated detection software that can quickly determine w
 ## INPUT
 You will be given a representation of the DNA structure with the primary strand using capital letters for the nucleotides (A=Adenine, C=Cytosine, etc.) and with the complimentary strand using lowercase letters to represent nucleotides (a=adenine, c=cytosine, etc.). You must analyze this sample to determine the corresponding RNA sequences, and determine whether the genetic markers are present and in the right order.
 
-NOTE: Multiple input case are seperated by a line of percent signs
+NOTE: Multiple input case are separated by a line of percent signs
 
 ## OUTPUT
 You must output whether the sample represents IMMUNE, SUSCEPTIBLE, or COMPROMISED .
 
-NOTE: Solutions to test cases should *not* be seperated by a line of percent signs.
+NOTE: Solutions to test cases should *not* be separated by a line of percent signs.
 
 ## SAMPLE INPUT
 <a target=new href='/include/genetics-hard-input.txt'>Sample Input File</a>

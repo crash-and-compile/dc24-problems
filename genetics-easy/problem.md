@@ -16,12 +16,12 @@ work with.
 ## INPUT
 You will be given a representation of the DNA structure with the primary strand using capital letters for the nucleotides (A=Adenine, C=Cytosine, etc.) and with the complimentary strand using lowercase letters to represent nucleotides (a=adenine, c=cytosine, etc.). A ? indicates a missing nucleotide.
 
-NOTE: Multiple input case are seperated by a line of percent signs
+NOTE: Multiple input case are separated by a line of percent signs
 
 ## OUTPUT
 Output the same DNA strand, with the correct nucleotides instead of question marks.
 
-NOTE: Solutions to test cases should be seperated by a line of percent signs just like the input
+NOTE: Solutions to test cases should be separated by a line of percent signs just like the input
 
 ## SAMPLE INPUT
 <a target=new href='/include/genetics-easy-input.txt'>Sample Input File</a>

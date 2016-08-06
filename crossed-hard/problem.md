@@ -12,12 +12,12 @@ Agents have sent along a Base64-encoded string. When decoded, this string contai
 
 At the top, cables are labeled A,B,C, and D. The ports are labelled 1,2,3, and 4 at the bottom.
 
-NOTE: Multiple input case are seperated by a line of percent signs
+NOTE: Multiple input case are separated by a line of percent signs
 
 ## OUTPUT
 You must output the cables and the ports they are plugged into, starting with A and ending with D, as shown below.
 
-NOTE: Solutions to test cases should *not* be seperated by a line of percent signs.
+NOTE: Solutions to test cases should *not* be separated by a line of percent signs.
 
 ## SAMPLE INPUT
 <a target=new href='/include/crossed-hard-input.txt'>Sample Input File</a>

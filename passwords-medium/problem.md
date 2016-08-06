@@ -22,7 +22,7 @@ matching characters in that attempt.
 
 Output is the password that will save your life!
 
-NOTE: Solutions to test cases should *not* be seperated by a line of percent signs.
+NOTE: Solutions to test cases should *not* be separated by a line of percent signs.
 
 ## SAMPLE INPUT
 	TABC 1

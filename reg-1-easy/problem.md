@@ -18,12 +18,12 @@ In this exercise, I'll give you a coded string of characters. You decode it and 
 ## INPUT
 You get a string of periods, spaces and minus signs.
  
-NOTE: Multiple input case are seperated by a line of percent signs
+NOTE: Multiple input case are separated by a line of percent signs
 
 ## OUTPUT
 Output the message, all-caps, no spaces.
 
-NOTE: Solutions to test cases should be seperated by a line of percent signs just like the input
+NOTE: Solutions to test cases should be separated by a line of percent signs just like the input
 
 ## SAMPLE INPUT
 	- . ... - 

@@ -19,12 +19,12 @@ Agents have passed along sketches of the wiring in various devices. The first in
 	A B
 
 
-NOTE: Multiple input case are seperated by a line of percent signs
+NOTE: Multiple input case are separated by a line of percent signs
 
 ## OUTPUT
 You must output in all caps (the agents are tired and don't want to mix up letters) where the desinated wire terminates. For example: X IS AT Y
 
-NOTE: Solutions to test cases should *not* be seperated by a line of percent signs.
+NOTE: Solutions to test cases should *not* be separated by a line of percent signs.
 
 ## SAMPLE INPUT
 	TRACK H

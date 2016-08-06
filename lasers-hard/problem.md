@@ -41,12 +41,12 @@ The input consists of an ascii representation of the walls and mirrors for each 
 	     123456789111111111
 	              012345678
 	      
-NOTE: Multiple input case are seperated by a line of percent signs
+NOTE: Multiple input case are separated by a line of percent signs
 
 ## OUTPUT
 Output the exit point for the laser, indicating level,side,and row/column.
 
-NOTE: Solutions to test cases should *not* be seperated by a line of percent signs.
+NOTE: Solutions to test cases should *not* be separated by a line of percent signs.
 
 ## SAMPLE INPUT
 <a target=new href='/include/lasers-hard-input.txt'>Sample Input File</a>

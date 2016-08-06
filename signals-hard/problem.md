@@ -16,12 +16,12 @@ Each line contains an indication of the voltage for the signal at a given time. 
 	Line contains '#     ' : Low voltage measured
 
 
-NOTE: Multiple input case are seperated by a line of percent signs
+NOTE: Multiple input case are separated by a line of percent signs
 
 ## OUTPUT
 Output the message encoded in the signal.
 
-NOTE: Solutions to test cases should *not* be seperated by a line of percent signs.
+NOTE: Solutions to test cases should *not* be separated by a line of percent signs.
 
 ## SAMPLE INPUT
 <a target=new href='/include/signals-hard-input.txt'>Sample Input File</a>

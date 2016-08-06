@@ -13,12 +13,12 @@ Anyway, now that you know the basics of Gray codes, we'll move on to practical a
 ## INPUT
 I'll give you a series of decimal representation of Gray code binary values.
 
-NOTE: Multiple input case are seperated by a line of percent signs
+NOTE: Multiple input case are separated by a line of percent signs
 
 ## OUTPUT
 Output the encoded message.
 
-NOTE: Solutions to test cases should be seperated by a line of percent signs just like the input
+NOTE: Solutions to test cases should be separated by a line of percent signs just like the input
 
 ## SAMPLE INPUT
 	126 103 122 126 48 126 103 122 126 48 126 103 122 126
