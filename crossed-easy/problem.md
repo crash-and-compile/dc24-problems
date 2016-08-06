@@ -13,7 +13,7 @@ NOTE: Multiple input case are seperated by a line of percent signs
 ## OUTPUT
 You must fill in the correct coordinates to reflect the correct position of the missing agent. This will be in the form [Designator]->[x,y] .
 
-NOTE: Solutions to test cases should be seperated by a line of percent signs just like the input
+NOTE: Solutions to test cases should *not* be seperated by a line of percent signs.
 
 ## SAMPLE INPUT
 	[E-2506]->[0,0]
