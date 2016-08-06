@@ -280,11 +280,12 @@ for(my $n = 0; $n < $testcases; $n++){
 				$status = "SUSCEPTIBLE";
 				if($start == 1){
 					$status	= "COMPROMISED";
+					last;
 				}
 			}
 		}
 		#print "$status\n";
-		if ($status != "COMPROMISED") {
+		if ($status ne "COMPROMISED") {
 			$start = 0;
 			$end = 0;
 			foreach my $pcodon (@pcodons){
@@ -299,6 +300,7 @@ for(my $n = 0; $n < $testcases; $n++){
 					$status = "SUSCEPTIBLE";
 					if($start == 1){
 						$status	= "COMPROMISED";
+						last;
 					}
 				}
 			}
