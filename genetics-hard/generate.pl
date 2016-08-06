@@ -284,7 +284,7 @@ for(my $n = 0; $n < $testcases; $n++){
 			}
 		}
 		#print "$status\n";
-		if $status != "COMPROMISED" {
+		if ($status != "COMPROMISED") {
 			$start = 0;
 			$end = 0;
 			foreach my $pcodon (@pcodons){
