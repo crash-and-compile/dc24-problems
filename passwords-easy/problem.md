@@ -30,6 +30,8 @@ longer of the two matches is returned.
 
 Output is the password that will definitely make you a Twitter star!
 
+NOTE: Solutions to test cases should *not* be seperated by a line of percent signs.
+
 ## SAMPLE INPUT
 	TABC 1
 	DEEF 1
@@ -61,7 +63,5 @@ Output is the password that will definitely make you a Twitter star!
 
 ## SAMPLE OUTPUT
 	TEST
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	LANDMARKS
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

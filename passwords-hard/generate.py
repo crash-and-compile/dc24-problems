@@ -63,7 +63,7 @@ def main():
 
 		case_sep = '%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n'
 		i.write(case_sep)
-		o.write(case_sep)
+		#o.write(case_sep)
 
         i.close()
         o.close()
