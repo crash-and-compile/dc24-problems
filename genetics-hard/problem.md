@@ -31,7 +31,7 @@ NOTE: Multiple input case are seperated by a line of percent signs
 ## OUTPUT
 You must output whether the sample represents IMMUNE, SUSCEPTIBLE, or COMPROMISED .
 
-NOTE: Solutions to test cases should be seperated by a line of percent signs just like the input
+NOTE: Solutions to test cases should *not* be seperated by a line of percent signs.
 
 ## SAMPLE INPUT
 <a target=new href='/include/genetics-hard-input.txt'>Sample Input File</a>

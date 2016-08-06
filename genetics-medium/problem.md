@@ -36,9 +36,10 @@ NOTE: Multiple input case are seperated by a line of percent signs
 ## OUTPUT
 You must output the number of unique codons and whether the same is HUMAN or SYNTHETIC.
 
-NOTE: Solutions to test cases should be seperated by a line of percent signs just like the input
+NOTE: Solutions to test cases should *not* be seperated by a line of percent signs.
 
 ## SAMPLE INPUT
 <a target=new href='/include/genetics-medium-input.txt'>Sample Input File</a>
 ## SAMPLE OUTPUT
 <a target=new href='/include/genetics-medium-output.txt'>Sample Output File</a>
+
