@@ -21,7 +21,7 @@ NOTE: Multiple input case are seperated by a line of percent signs
 ## OUTPUT
 Output the message encoded in the signal.
 
-NOTE: Solutions to test cases should be seperated by a line of percent signs just like the input
+NOTE: Solutions to test cases should *not* be seperated by a line of percent signs.
 
 ## SAMPLE INPUT
 <a target=new href='/include/signals-hard-input.txt'>Sample Input File</a>

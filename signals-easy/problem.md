@@ -24,7 +24,7 @@ NOTE: Multiple input case are seperated by a line of percent signs
 ## OUTPUT
 Output the string of bits being transmitted.
 
-NOTE: Solutions to test cases should be seperated by a line of percent signs just like the input
+NOTE: Solutions to test cases should *not* be seperated by a line of percent signs.
 
 ## SAMPLE INPUT
 <a target=new href='/include/signals-easy-input.txt'>Sample Input File</a>
