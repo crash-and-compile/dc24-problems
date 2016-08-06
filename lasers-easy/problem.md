@@ -1,7 +1,7 @@
 <!-- RATING: EASY -->
 <!-- NAME: LASERS -->
 <!-- GENERATOR: generate.pl -->
-# LASERS
+# LASERS - Easy
 
 Alpha team has infiltrated an AI facility used to manufacture chip components. However, they are currently exposed in a hallway with a complicated security system barring further progress. They have identified the system as a laser grid, and the lasers operate outside of the 400nm ~ 700nm range so are invisible. There is a series of mirrors used to reflect the laser across segments of the hallway, but they have no way of knowing where to place reflectors to disable detection.
 

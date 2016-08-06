@@ -1,7 +1,7 @@
 <!-- RATING: HARD -->
 <!-- NAME:  CROSSING LINES -->
 <!-- GENERATOR: generate.pl -->
-# CROSSING LINES
+# CROSSING LINES - Hard
 
 Our agents have infiltrated a compromised facility where AI operatives have rewired the cables. The agents have the original connection diagrams on site, but are having difficulty establishing which connections have been rewired. Some idiot used the same color for all the networking cables. They need your assistance deciphering which cables are plugged into to which ports. If they disconnect the wrong cables, the AI will know it has been discovered. It is critical that this not happen.
 

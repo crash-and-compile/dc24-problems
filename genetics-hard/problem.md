@@ -1,7 +1,7 @@
 <!-- RATING: HARD -->
 <!-- NAME: GENETICS -->
 <!-- GENERATOR: generate.pl -->
-# GENETICS
+# GENETICS - Hard
 
 As you may know, DNA consists of nucleotide pairs (A with T, and C with G). A set of three nucleotides is called a codon, and depending on the nucleotides it will create different proteins. For example, TTT will generate one protein, while TGC will create a different one. This is ultimately accomplished using a process called transcription, where the DNA helix is pulled apart by RNA-polymerase and used to build strands of RNA. The important thing to note here is that RNA-polymerase works in different "directions" on the two seperate strands. For example, the in the following sample, the primary strand uses A,T,G, and C to represent nucleotides, while the complimentary strand uses a,t,g and c:
 

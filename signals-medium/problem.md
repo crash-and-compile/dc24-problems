@@ -1,7 +1,7 @@
 <!-- RATING: MEDIUM -->
 <!-- NAME:  SIGNALS -->
 <!-- GENERATOR: generate.pl -->
-# SIGNALS
+# SIGNALS - Medium
 
 Bravo team has been intercepting transmissions from AI-controlled monitoring stations near major cities. These transmissions appear to assist the AI agents in determining appropriate targets for their attacks, although our cryptanalysts have not been able to determine how. 
 

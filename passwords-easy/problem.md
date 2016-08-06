@@ -1,7 +1,7 @@
 <!-- RATING: EASY -->
 <!-- NAME: PASSWORDS -->
 <!-- GENERATOR: generate.py -->
-# GET CRACKING!
+# GET CRACKING! - Easy
 
 Thanks to a successful infiltration by Lyle, we have been able to gain valuable
 information about the Alliance's Facebook password.  Unfortunately, he clicked
